@@ -29,8 +29,8 @@ jobs:
           protocol: ftp
           local-dir: ./
           server-dir: /public_html/
-          state-name: staygajin-deploy-v1
-          log-level: minimal
+          state-name: staygajin-deploy-v3
+          log-level: standard
           exclude: |
             **/.git*
             **/.github/**
